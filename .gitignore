@@ -1,0 +1,23 @@
+# 仮想環境
+bin/
+lib/
+lib64/
+include/
+share/
+pyvenv.cfg
+etc/
+
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# データ・モデル（重い）
+data/
+models/
+*.pt
+*.bin
+*.gguf
+
+# 環境
+.env
